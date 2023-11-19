@@ -16,6 +16,10 @@ div {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+}
+
 button {
   background: none;
   color: #ffa260;
