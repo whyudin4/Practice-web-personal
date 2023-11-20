@@ -1,19 +1,36 @@
 body {
-  background-color: #e9edc9;
+  background-color: #948c88;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-  color: #d4a373;
+  color: #ffffff;
 }
 
 .container {
   width: 500px;
-  height: 500px;
+  height: 1000px;
 }
 
-div {
+.jumbroton {
+  font-size: 20px;
+  padding: 60px;
+  background-color: #4d3a2c;
+  text-align: center;
+  color: white;
+}
+
+/* div {
   background-color: #d6dfff;
   text-align: center;
+  margin: auto 0;
+  padding: auto 0;
+} */
+
+nav {
+  background-color: red;
+  display: inline;
 }
 
 a {
@@ -22,7 +39,7 @@ a {
 
 button {
   background: none;
-  color: #ffa260;
+  color: #ffffff;
   border: 2px solid;
   padding: 1em 2em;
   font-size: 1em;
