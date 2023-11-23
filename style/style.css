@@ -1,55 +1,84 @@
 body {
   background-color: #948c88;
-  margin: 0;
-  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 h1 {
-  color: #ffffff;
+  color: #000000;
 }
-
-.container {
-  width: 500px;
-  height: 1000px;
-}
-
-.jumbroton {
-  font-size: 20px;
-  padding: 60px;
-  background-color: #4d3a2c;
-  text-align: center;
-  color: white;
-}
-
-/* div {
-  background-color: #d6dfff;
-  text-align: center;
-  margin: auto 0;
-  padding: auto 0;
-} */
-
-nav {
-  background-color: red;
-  display: inline;
-}
-
 a {
   text-decoration: none;
 }
 
-button {
-  background: none;
-  color: #ffffff;
-  border: 2px solid;
-  padding: 1em 2em;
-  font-size: 1em;
-  transition: all 0.2s;
+.jumbroton {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px 25px;
+  width: 100%;
+  max-width: 960px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-button:hover {
+.content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.social {
+  padding: 10px 20px;
+}
+
+.button {
+  border: 1px solid #ff9dba;
+  border-radius: 10px;
+  color: black;
+  display: inline-block;
+  padding: 15px 35px;
+  text-decoration: none;
+  margin: 25px 5px;
+  transition: background-color 200ms ease-in-out;
+}
+
+.button:nth-of-type(1):hover {
   border-color: red;
-  color: white;
+  color: transparent;
+  background: no-repeat center url(/img/socialmedia/youtube.png);
   box-shadow: 0 0.5em 0.5em -0.4em red;
-  transform: translateY(-0.5em);
+  transform: translateY(-0.25em);
+  cursor: pointer;
+}
+
+.button:nth-of-type(2):hover {
+  border-color: black;
+  color: transparent;
+  background: no-repeat center/40% url(/img/socialmedia/x.png);
+  box-shadow: 0 0.5em 0.5em -0.4em black;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+}
+
+.button:nth-of-type(3):hover {
+  border-color: purple;
+  color: transparent;
+  background: no-repeat center/25% url(/img/socialmedia/instagram.png);
+  box-shadow: 0 0.5em 0.5em -0.4em purple;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+}
+
+.button:nth-of-type(4):hover {
+  border-color: black;
+  color: transparent;
+  background: no-repeat center/35% url(/img/socialmedia/tiktok.png);
+  box-shadow: 0 0.5em 0.5em -0.4em black;
+  transform: translateY(-0.25em);
   cursor: pointer;
 }
